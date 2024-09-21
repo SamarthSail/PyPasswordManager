@@ -26,9 +26,9 @@ cd your-repo
 ### Option 2: Download and Run the Python Script
 #### 1. Download the PassManager.py file from this repository.
 #### 2. Install the required Python library:
-''' pip install cryptography '''
+``` pip install cryptography ```
 #### 3. Run the program:
-''' python PassManager.py '''
+``` python PassManager.py ```
 
 ## Usage
 ### 1. First Run - Set Master Password
