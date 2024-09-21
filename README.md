@@ -13,22 +13,22 @@ This is a simple and secure password manager written in Python. It allows you to
 
 ## Installation
 ### Option 1: Clone the Repository
-1. Clone the repository:
+#### 1. Clone the repository:
 ```
 git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 ```
-3. Install the required Python library:
+#### 2. Install the required Python library:
 ``` pip install cryptography ```
-3. Run the program:
+#### 3. Run the program:
 ``` python PassManager.py ```
 
 ### Option 2: Download and Run the Python Script
-1. Download the PassManager.py file from this repository.
-2. Install the required Python library:
-- pip install cryptography
-3. Run the program:
-- python PassManager.py
+#### 1. Download the PassManager.py file from this repository.
+#### 2. Install the required Python library:
+''' pip install cryptography '''
+#### 3. Run the program:
+''' python PassManager.py '''
 
 ## Usage
 ### 1. First Run - Set Master Password
