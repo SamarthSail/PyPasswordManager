@@ -2,16 +2,14 @@
 This is a simple and secure password manager written in Python. It allows you to securely store account credentials (username/password) in an encrypted file, protected by a master password. It utilizes PBKDF2-HMAC for key derivation, SHA-256 for password hashing, and Fernet encryption from the cryptography library to encrypt and decrypt passwords.
 
 ## Features
-Master Password: Protects access to the stored passwords.
-Encryption: Passwords are encrypted using Fernet symmetric encryption.
-Salted Hashing: The master password is hashed with a salt using SHA-256 to prevent rainbow table attacks.
-PBKDF2HMAC: Ensures that the encryption key derived from the master password is secure.
-Password Storage: Account names and encrypted passwords are stored in a text file (passwords.txt).
+* Master Password: Protects access to the stored passwords.
+* Encryption: Passwords are encrypted using Fernet symmetric encryption.
+* Salted Hashing: The master password is hashed with a salt using SHA-256 to prevent rainbow table attacks.
+* PBKDF2HMAC: Ensures that the encryption key derived from the master password is secure.
+* Password Storage: Account names and encrypted passwords are stored in a text file (passwords.txt).
 
 ## Prerequisites
-Python 3.x must be installed on your machine. 
-You will need the cryptography library. Install it using the following command:
-- pip install cryptography
+* Python 3.x must be installed on your machine. 
 
 ## Installation
 ### Option 1: Clone the Repository
