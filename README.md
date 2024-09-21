@@ -14,8 +14,8 @@ This is a simple and secure password manager written in Python. It allows you to
 ## Installation
 ### Option 1: Clone the Repository
 1. Clone the repository:
-''' git clone https://github.com/yourusername/your-repo.git '''
-- cd your-repo
+` git clone https://github.com/yourusername/your-repo.git ` 
+` cd your-repo `
 2. Install the required Python library:
 - pip install cryptography
 3. Run the program:
