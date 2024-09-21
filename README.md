@@ -40,10 +40,10 @@ cd your-repo
 * To add a new password, type add when prompted.
 * The account name and password will be stored securely in the passwords.txt file, with the password encrypted.
 
-###3. Viewing Passwords
+### 3. Viewing Passwords
 * To view your stored passwords, type view when prompted. You will see the account names along with their decrypted passwords.
 
-4. Exiting
+### 4. Exiting
 * You can exit the program by typing q when prompted.
 
 ## Security Features
