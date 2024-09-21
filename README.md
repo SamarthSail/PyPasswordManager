@@ -14,7 +14,7 @@ This is a simple and secure password manager written in Python. It allows you to
 ## Installation
 ### Option 1: Clone the Repository
 1. Clone the repository:
-- git clone https://github.com/yourusername/your-repo.git
+''' git clone https://github.com/yourusername/your-repo.git '''
 - cd your-repo
 2. Install the required Python library:
 - pip install cryptography
@@ -29,27 +29,27 @@ This is a simple and secure password manager written in Python. It allows you to
 - python PassManager.py
 
 ## Usage
-1. First Run - Set Master Password
-When you run the script for the first time, it will prompt you to create a master password.
-This password will be used to encrypt and decrypt the stored credentials.
+### 1. First Run - Set Master Password
+* When you run the script for the first time, it will prompt you to create a master password.
+* This password will be used to encrypt and decrypt the stored credentials.
 
-2. Adding a Password
-Once the master password is verified, the program will ask whether you want to add a new password or view existing ones.
-To add a new password, type add when prompted.
-The account name and password will be stored securely in the passwords.txt file, with the password encrypted.
+### 2. Adding a Password
+* Once the master password is verified, the program will ask whether you want to add a new password or view existing ones.
+* To add a new password, type add when prompted.
+* The account name and password will be stored securely in the passwords.txt file, with the password encrypted.
 
-3. Viewing Passwords
-To view your stored passwords, type view when prompted. You will see the account names along with their decrypted passwords.
+###3. Viewing Passwords
+* To view your stored passwords, type view when prompted. You will see the account names along with their decrypted passwords.
 
 4. Exiting
-You can exit the program by typing q when prompted.
+* You can exit the program by typing q when prompted.
 
 ## Security Features
-Master Password Protection: The user is required to set and enter a master password to access stored credentials. This password is hashed and stored securely.
-Salted Password Hashing: The master password is combined with a randomly generated salt and hashed using SHA-256 before storing it in master_password.txt.
-Key Derivation Function: The encryption key is derived using the PBKDF2HMAC function with 100,000 iterations, ensuring strong security.
-Fernet Encryption: Uses the derived key to encrypt and decrypt passwords stored in passwords.txt.
-Encrypted Storage: Passwords are stored in the passwords.txt file in an encrypted format, making them unreadable without the correct master password.
+* Master Password Protection: The user is required to set and enter a master password to access stored credentials. This password is hashed and stored securely.
+* Salted Password Hashing: The master password is combined with a randomly generated salt and hashed using SHA-256 before storing it in master_password.txt.
+* Key Derivation Function: The encryption key is derived using the PBKDF2HMAC function with 100,000 iterations, ensuring strong security.
+* Fernet Encryption: Uses the derived key to encrypt and decrypt passwords stored in passwords.txt.
+* Encrypted Storage: Passwords are stored in the passwords.txt file in an encrypted format, making them unreadable without the correct master password.
 
 ## Future Improvements 
 * Add multi-user support with separate password databases for each user.
