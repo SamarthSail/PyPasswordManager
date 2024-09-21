@@ -58,4 +58,4 @@ cd your-repo
 * Add deletion feature for passwords by choosing a password based on account name.
 * Add a seperator for an account username for each website accordingly.
 * Add an option to choose an auto-generated strong password for an account
-* Consider different options to secure key, salt and masterpassword files to avoid being easily discovered in the local directories
+* Consider secure options to hide key, salt and masterpassword files 
